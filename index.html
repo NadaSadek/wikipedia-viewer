@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>a Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1> Wiki Search Engine</h1>
+  </head>
+  
+  <body>
+ <div class="container">
+   <div class="jumbotron">
+     
+  <div class="row">
+    <div class="col-md-12">
+      <a type="button" href="https://en.wikipedia.org/wiki/Special:Random"  class="btn btn-lg btn-default" target="_blank" >Surprise me!</a> 
+     </div>
+   </div>
+     
+     
+          <form class="form-inline" type="POST"  id="searchBox">
+  <div class="form-group">
+   
+    <label class="sr-only" for="sBox">Search</label>
+    <div class="row">
+        <div class="col-md-6">
+    <input type="text" class="form-control" id="sBox" placeholder="Search for a topic"  required>
+    <div class="help-block with-errors"></div>
+            </div>
+            
+          <div class="col-md-6">
+  <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+</form> </div>
+          
+    </div>
+         <div class="row">
+        <div class="col-md-12">
+          <div id="tb1"></div>
+         </div>
+           </div>
+ </div>
+  </div>
+    </div>  
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

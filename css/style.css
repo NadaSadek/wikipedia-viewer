@@ -1,0 +1,32 @@
+.jumbotron{
+  background-color: #370037;
+  text-align: center;
+}
+body{
+  margin-top:50px;
+  background-color:lavender;
+  font-family:  Impact, Verdana, Charcoal, sans-serif;
+  font-size: 20px;
+}
+h1{
+    color: #5E6283;
+  text-align: center;
+}
+#content{
+  font-size:15px;
+  font-family: Verdana, Charcoal, sans-serif;
+  
+}
+#searchBox{
+  margin-top: 20px;
+}
+
+.btn-default{
+    color: #5E6283;
+}
+
+#result{
+  margin-top: 10px;
+  background-color: lavender;
+  color: #5E6283;
+}
